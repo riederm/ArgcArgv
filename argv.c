@@ -2,13 +2,8 @@
 
 int main(int argc, char *argv[]) {
 
-  printf("Program name %s\n", argv[0]);
-
-  if (argc == 1) {
-    printf("Give me some arguments\n");
-  }
-
-  printf("there are %d additional arguments\n", argc - 1);
- 
+  printf("What the heck are these argc and argv?\n");
+  printf("Why is one an int and one an array?\n");
+  
   return 0;
 }
