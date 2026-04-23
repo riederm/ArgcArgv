@@ -3,9 +3,10 @@
 int main(int argc, char *argv[]) {
 
   printf("Number of command-line arguments: %d\n", argc);
+  printf("\n");
   printf("Command-line arguments:\n");
   for (int i = 0; i < argc; i++) {
-    printf("%d. %s\n", i, argv[i]);
+    printf("\t%d. %s\n", i, argv[i]);
   }
   
   return 0;
