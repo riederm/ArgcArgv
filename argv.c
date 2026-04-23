@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-
-  printf("What the heck are these argc and argv?\n");
-  printf("Why is one an int and one an array?\n");
+  
+  printf("Command-line arguments:\n");
+  for (int i = 0; i < argc; i++) {
+    printf("%d. %s\n", i, argv[i]);
+  }
   
   return 0;
 }
